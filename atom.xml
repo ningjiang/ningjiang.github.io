@@ -4,7 +4,7 @@
   <title><![CDATA[Run, Run, Run]]></title>
   <link href="http://ningjiang.github.io/atom.xml" rel="self"/>
   <link href="http://ningjiang.github.io/"/>
-  <updated>2014-08-14T17:13:11+08:00</updated>
+  <updated>2014-08-16T23:09:04+08:00</updated>
   <id>http://ningjiang.github.io/</id>
   <author>
     <name><![CDATA[Ning]]></name>
@@ -12,5 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Tips]]></title>
+    <link href="http://ningjiang.github.io/blog/2014/08/15/octopress-tips/"/>
+    <updated>2014-08-15T09:28:52+08:00</updated>
+    <id>http://ningjiang.github.io/blog/2014/08/15/octopress-tips</id>
+    <content type="html"><![CDATA[<p>Here I summarized some tips about Octopress:</p>
+
+<ul>
+<li>Easy setup by following <a href="http://octopress.org/docs/setup/">Octopress Setup</a></li>
+<li>Nice deploy by following <a href="http://octopress.org/docs/deploying/github/">Deploying to Github Pages</a></li>
+<li>Simple configuration by following <a href="http://octopress.org/docs/configuring/">Configuring Octopress</a></li>
+<li>Beautiful post by following <a href="http://octopress.org/docs/blogging/">Blogging Basics</a></li>
+<li>Programmer oriented, see <a href="http://octopress.org/docs/blogging/code/">Sharing Code Snippets</a> and <a href="http://octopress.org/docs/blogging/plugins/">Plugins</a></li>
+</ul>
+
+
+<p>One drawback:</p>
+
+<ul>
+<li>May need to upgrade or downgrade to a specific jekyll version to generate posts correctly, that&rsquo;s why it is called &lsquo;A blogging framework for hackers&rsquo;</li>
+</ul>
+
+
+<p>One convenient tool to write markdown post is Mou. Try it!</p>
+]]></content>
+  </entry>
   
 </feed>
