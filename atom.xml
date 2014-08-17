@@ -4,7 +4,7 @@
   <title><![CDATA[Run, Run, Run]]></title>
   <link href="http://ningjiang.github.io/atom.xml" rel="self"/>
   <link href="http://ningjiang.github.io/"/>
-  <updated>2014-08-16T23:09:04+08:00</updated>
+  <updated>2014-08-17T22:04:10+08:00</updated>
   <id>http://ningjiang.github.io/</id>
   <author>
     <name><![CDATA[Ning]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mac Wish List]]></title>
+    <link href="http://ningjiang.github.io/blog/2014/08/17/mac-wish-list/"/>
+    <updated>2014-08-17T21:36:04+08:00</updated>
+    <id>http://ningjiang.github.io/blog/2014/08/17/mac-wish-list</id>
+    <content type="html"><![CDATA[<p>Mac could be better, if it can:</p>
+
+<ul>
+<li>Provide a package management system, e.g. <a href="http://brew.sh/">homebrew</a></li>
+<li>Enhance the terminal, e.g. <a href="http://iterm2.com/">iTerm2</a></li>
+<li>Friendly Bash shell, e.g. Dir Colors, Bash Prompt, especially <em>Bash Completion</em></li>
+<li>More powerful commands, the default commands are of less use</li>
+<li>A configured VIM editor, at lease <em>&lsquo;syntax on&rsquo;</em></li>
+</ul>
+
+
+<p>Well, maybe I&rsquo;m a little spoiled by Ubuntu development environment :-)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Tips]]></title>
