@@ -4,7 +4,7 @@
   <title><![CDATA[Run, Run, Run]]></title>
   <link href="http://ningjiang.github.io/atom.xml" rel="self"/>
   <link href="http://ningjiang.github.io/"/>
-  <updated>2014-08-17T22:04:10+08:00</updated>
+  <updated>2014-08-20T16:05:41+08:00</updated>
   <id>http://ningjiang.github.io/</id>
   <author>
     <name><![CDATA[Ning]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Enabling OpenCV4Android]]></title>
+    <link href="http://ningjiang.github.io/blog/2014/08/19/enabling-opencv4android/"/>
+    <updated>2014-08-19T09:58:11+08:00</updated>
+    <id>http://ningjiang.github.io/blog/2014/08/19/enabling-opencv4android</id>
+    <content type="html"><![CDATA[<p>Basically following the instructions <a href="http://opencv.org/platforms/android.html">How to start</a></p>
+
+<p>It clearly describes the steps in details:</p>
+
+<ul>
+<li><a href="http://docs.opencv.org/doc/tutorials/introduction/android_binary_package/android_dev_intro.html">“Introduction into Android Development”</a></li>
+<li><a href="http://docs.opencv.org/doc/tutorials/introduction/android_binary_package/O4A_SDK.html">“OpenCV for Android SDK”</a></li>
+<li><a href="http://docs.opencv.org/doc/tutorials/introduction/android_binary_package/dev_with_OCV_on_Android.html">“Android development with OpenCV”</a></li>
+</ul>
+
+
+<p>Several notes:</p>
+
+<ul>
+<li>Convert your project to a C/C++ project if you want to compile native code. See the section <em>Building application native part from Eclipse (CDT Builder)</em></li>
+<li>Import the <em>OpenCV Library</em> and then reference the library in your project</li>
+<li>Configure NDKROOT and use it in <em>C/C++ Build Command</em> for build and <em>Paths and Symbols</em> for includes</li>
+<li>Configure OPENCVROOT and use it in <em>Paths and Symbols</em> for includes</li>
+<li>Change jni/Android.mk and jni/Application.mk to suit your needs</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mac Wish List]]></title>
