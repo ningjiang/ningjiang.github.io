@@ -2,7 +2,7 @@ source "https://ruby.taobao.org"
 
 group :development do
   gem 'rake', '~> 10.0'
-  gem 'jekyll', '2.2.0'
+  gem 'jekyll', '~> 2.0'
   gem 'octopress-hooks', '~> 2.2'
   gem 'octopress-date-format', '~> 2.0'
   gem 'jekyll-sitemap'
@@ -13,6 +13,7 @@ group :development do
   gem 'sass-globbing', '~> 1.0.0'
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
+  gem 'therubyracer'
 end
 
 gem 'sinatra', '~> 1.4.2'
