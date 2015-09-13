@@ -4,7 +4,7 @@
   <title><![CDATA[Run, Run, Run]]></title>
   <link href="http://ningjiang.github.io/atom.xml" rel="self"/>
   <link href="http://ningjiang.github.io/"/>
-  <updated>2014-08-20T16:05:41+08:00</updated>
+  <updated>2015-09-14T00:00:30+08:00</updated>
   <id>http://ningjiang.github.io/</id>
   <author>
     <name><![CDATA[Ning]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress New Post Quick Guide]]></title>
+    <link href="http://ningjiang.github.io/blog/2015/09/13/octopress-new-post-quick-guide/"/>
+    <updated>2015-09-13T19:56:47+08:00</updated>
+    <id>http://ningjiang.github.io/blog/2015/09/13/octopress-new-post-quick-guide</id>
+    <content type="html"><![CDATA[<ul>
+<li>rake new_post[&ldquo;title&rdquo;]</li>
+<li>edit the markdown file</li>
+<li>git add source/_posts/ ; git commit -a</li>
+<li>rake generate</li>
+<li>rake preview (optional), back to edit if necessary</li>
+<li>rake deploy</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Enabling OpenCV4Android]]></title>
