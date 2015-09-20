@@ -81,6 +81,390 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/blog/2015/09/20/GitHub-Flavored-Markdown/" title="GitHub Flavored Markdown" itemprop="url">GitHub Flavored Markdown</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Ning" target="_blank" itemprop="author">Ning</a>
+		
+  <p class="article-time">
+    <time datetime="2015-09-20T08:13:04.000Z" itemprop="datePublished"> 发表于 2015-09-20</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h2 id="Differences_from_traditional_Markdown">Differences from traditional Markdown</h2><h3 id="Multiple_underscores_in_words">Multiple underscores in words</h3><blockquote>
+<p>wow_great_stuff<br>do_this_and_do_that_and_another_thing.</p>
+</blockquote>
+<h3 id="URL_autolinking">URL autolinking</h3><p><a href="http://example.com" target="_blank" rel="external">http://example.com</a></p>
+<h3 id="Strikethrough">Strikethrough</h3><p><del>Mistaken text.</del></p>
+<h3 id="Fenced_code_blocks">Fenced code blocks</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"notice the blank line before this function?"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Syntax_highlighting">Syntax highlighting</h3><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = <span class="constant">Redcarpet</span>.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+<h3 id="Tables">Tables</h3><table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Help</td>
+<td>Display the help window.</td>
+</tr>
+<tr>
+<td>Close</td>
+<td>Closes a window</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Help</td>
+<td><del>Display the</del> help window.</td>
+</tr>
+<tr>
+<td>Close</td>
+<td><em>Closes</em> a window</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Left-Aligned</th>
+<th style="text-align:center">Center Aligned</th>
+<th style="text-align:right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">col 3 is</td>
+<td style="text-align:center">some wordy text</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td style="text-align:left">col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td style="text-align:left">zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/blog/2015/09/20/Markdown-Syntax/" title="Markdown Syntax" itemprop="url">Markdown Syntax</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Ning" target="_blank" itemprop="author">Ning</a>
+		
+  <p class="article-time">
+    <time datetime="2015-09-20T04:42:58.000Z" itemprop="datePublished"> 发表于 2015-09-20</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>Examples to demostrate the <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">markdown syntax</a>.</p>
+<h1 id="INLINE_HTML">INLINE HTML</h1><p>This is a regular paragraph.</p>
+<table><br>    <tr><br>        <td>Foo</td><br>    </tr><br></table>
+
+<p>This is another regular paragraph.</p>
+<h1 id="AUTOMATIC_ESCAPING_FOR_SPECIAL_CHARACTERS">AUTOMATIC ESCAPING FOR SPECIAL CHARACTERS</h1><p><a href="http://images.google.com/images?num=30&amp;q=larry+bird" target="_blank" rel="external">http://images.google.com/images?num=30&amp;q=larry+bird</a></p>
+<p>&copy;</p>
+<p>AT&amp;T</p>
+<p>4 &lt; 5</p>
+<h1 id="HEADERS">HEADERS</h1><h1 id="This_is_an_H1">This is an H1</h1><h2 id="This_is_an_H2">This is an H2</h2><h1 id="This_is_an_H1-1">This is an H1</h1><h2 id="This_is_an_H2-1">This is an H2</h2><h6 id="This_is_an_H6">This is an H6</h6><h1 id="This_is_an_H1-2">This is an H1</h1><h2 id="This_is_an_H2-2">This is an H2</h2><h3 id="This_is_an_H3">This is an H3</h3><h1 id="BLOCKQUOTES">BLOCKQUOTES</h1><p>Standard format:</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.<br>Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse<br>id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p>Lazy format:</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.<br>Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse<br>id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p>Nested format:</p>
+<blockquote>
+<p>This is the first level of quoting.</p>
+<blockquote>
+<p>This is nested blockquote.</p>
+</blockquote>
+<p>Back to the first level.</p>
+</blockquote>
+<p>Embedded format:</p>
+<blockquote>
+<h2 id="This_is_a_header-">This is a header.</h2><ol>
+<li>This is the first list item.</li>
+<li>This is the second list item.</li>
+</ol>
+<p>Here’s some example code:</p>
+<pre><code><span class="built_in">return</span> shell_<span class="built_in">exec</span>(<span class="string">"echo <span class="variable">$input</span> | <span class="variable">$markdown_script</span>"</span>);
+</code></pre></blockquote>
+<h1 id="LISTS">LISTS</h1><p>Asterisks list:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>Pluses list:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>Hyphens list:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>Ordered list:</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p>Lazy ordered list :</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p>Crazy lazy ordered list:</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p>Manual indent list:</p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,<br>viverra nec, fringilla in, laoreet vitae, risus.</li>
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.<br>Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+</ul>
+<p>Auto indent list:</p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,<br>viverra nec, fringilla in, laoreet vitae, risus.</li>
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.<br>Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+</ul>
+<p>Without blank line:</p>
+<ul>
+<li>Bird</li>
+<li>Magic</li>
+</ul>
+<p>With blank line:</p>
+<ul>
+<li><p>Bird</p>
+</li>
+<li><p>Magic</p>
+</li>
+</ul>
+<p>Multiple paragraphs:</p>
+<ol>
+<li><p>This is a list item with two paragraphs. Lorem ipsum dolor<br>sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>mi posuere lectus.</p>
+<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>sit amet velit.</p>
+</li>
+<li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p>
+</li>
+</ol>
+<p>Lazy multiple paragraphs:</p>
+<ul>
+<li><p>This is a list item with two paragraphs.</p>
+<p>This is the second paragraph in the list item. You’re<br>only required to indent the first line. Lorem ipsum dolor<br>sit amet, consectetuer adipiscing elit.</p>
+</li>
+<li><p>Another item in the same list.</p>
+</li>
+</ul>
+<p>Blockquote within a list item:</p>
+<ul>
+<li><p>A list item with a blockquote:</p>
+<blockquote>
+<p>This is a blockquote<br>inside a list item.</p>
+</blockquote>
+</li>
+</ul>
+<p>Code block within a list item:</p>
+<ul>
+<li><p>A list item with a code block:</p>
+<pre><code>&lt;<span class="tag">code</span> goes here&gt;
+</code></pre></li>
+</ul>
+<p>Unexpected list:</p>
+<ol>
+<li>What a great season.</li>
+</ol>
+<p>Backslash-escape the period:</p>
+<p>1986. What a great season.</p>
+<h1 id="CODE_BLOCKS">CODE BLOCKS</h1><p>This is a normal paragraph:</p>
+<pre><code>This is <span class="tag">a</span> <span class="tag">code</span> block.
+</code></pre><p>Here is an example of AppleScript:</p>
+<pre><code><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Foo"</span>
+    <span class="command">beep</span>
+<span class="keyword">end</span> <span class="keyword">tell</span>
+</code></pre><p>HTML code example:</p>
+<pre><code>&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"footer"</span>&gt;
+    &amp;<span class="keyword">copy</span>; <span class="number">2004</span> Foo Corporation
+&lt;/<span class="keyword">div</span>&gt;
+</code></pre><h1 id="HORIZONTAL_RULES">HORIZONTAL RULES</h1><p>Horizontal rule tag:</p>
+<hr>
+<hr>
+<hr>
+<h1 id="LINKS">LINKS</h1><p>URL:</p>
+<p>This is <a href="http://example.com/" title="Title" target="_blank" rel="external">an example</a> inline link.</p>
+<p><a href="http://example.net/" target="_blank" rel="external">This link</a> has no title attribute.</p>
+<p>Local resource:</p>
+<p>See my <a href="/about/">About</a> page for details.</p>
+<p>Reference-style links:</p>
+<p>This is <a href="url/to/image" title="Optional title attribute">an example</a> reference-style link.<br>This is <a href="url/to/image" title="Optional title attribute">an example</a> reference-style link.</p>
+<p>Implicit link:</p>
+<p><a href="http://google.com/" title="Google" target="_blank" rel="external">Google</a></p>
+<p>Visit <a href="http://daringfireball.net/" target="_blank" rel="external">Daring Fireball</a> for more information.</p>
+<p>More example:</p>
+<p>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="external">Google</a> than from<br><a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="external">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="external">MSN</a>.</p>
+<p>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="external">Google</a> than from<br><a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="external">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="external">MSN</a>.</p>
+<h1 id="EMPHASIS">EMPHASIS</h1><p>Emphasis:</p>
+<p><em>single asterisks</em></p>
+<p><em>single underscores</em></p>
+<p><strong>double asterisks</strong></p>
+<p><strong>double underscores</strong></p>
+<p>In the middle of a word:</p>
+<p>un<em>frigging</em>believable</p>
+<p>Backslash escape emphasis:</p>
+<p>*this text is surrounded by literal asterisks*</p>
+<h1 id="CODE">CODE</h1><p>Span of code:</p>
+<p>Use the <code>printf()</code> function.</p>
+<p>Include backtick character:</p>
+<p><code>There is a literal backtick (`) here.</code></p>
+<p>A single backtick in a code span: <code>` </code></p>
+<p>A backtick-delimited string in a code span: <code>`foo` </code></p>
+<p>Include example HTML tags:</p>
+<p>Please don’t use any <code>&lt;blink&gt;</code> tags.</p>
+<p><code>&amp;#8212;</code> is the decimal-encoded equivalent of <code>&amp;mdash;</code>.</p>
+<h1 id="IMAGES">IMAGES</h1><p><img src="/path/to/img.jpg" alt="Alt text"></p>
+<p><img src="/path/to/img.jpg" alt="Alt text" title="Optional title"></p>
+<p><img src="url/to/image" alt="Alt text" title="Optional title attribute"></p>
+<h1 id="AUTOMATIC_LINKS">AUTOMATIC LINKS</h1><p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a></p>
+<p><a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x61;&#100;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#x65;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;">&#x61;&#100;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#x65;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;</a></p>
+<h1 id="BACKSLASH_ESCAPES">BACKSLASH ESCAPES</h1><p>\literal backslash\<br>`literal backtick`<br>*literal asterisk*<br>_literal underscore_<br>{literal curly braces}<br>[literal square brackets]<br>(literal parentheses)<br>#literal hash mark#<br>+literal plus sign+<br>-literal minus sign (hyphen)-<br>.literal dot.<br>!literal exclamation mark!</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/blog/2015/09/20/Markdown-Basics/" title="Markdown Basics" itemprop="url">Markdown Basics</a>
   </h1>
   <p class="article-author">By
@@ -94,7 +478,8 @@
 </header>
     <div class="article-content">
         
-        <h1 id="PARAGRAPHS,_HEADERS,_BLOCKQUOTES">PARAGRAPHS, HEADERS, BLOCKQUOTES</h1><h1 id="A_First_Level_Header">A First Level Header</h1><h2 id="A_Second_Level_Header">A Second Level Header</h2><p>Now is the time for all good men to come to<br>the aid of their country. This is just a<br>regular paragraph.</p>
+        <p>Examples to demostrate the <a href="http://daringfireball.net/projects/markdown/basics" target="_blank" rel="external">markdown basics</a>.</p>
+<h1 id="PARAGRAPHS,_HEADERS,_BLOCKQUOTES">PARAGRAPHS, HEADERS, BLOCKQUOTES</h1><h1 id="A_First_Level_Header">A First Level Header</h1><h2 id="A_Second_Level_Header">A Second Level Header</h2><p>Now is the time for all good men to come to<br>the aid of their country. This is just a<br>regular paragraph.</p>
 <p>The quick brown fox jumped over the lazy<br>dog’s back.</p>
 <h3 id="Header_3">Header 3</h3><blockquote>
 <p>This is a blockquote.</p>
@@ -177,7 +562,7 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/blog/2015/09/19/Moving-To-Hexo/" title="Hello World" itemprop="url">Hello World</a>
+      <a href="/blog/2015/09/19/Moving-To-Hexo/" title="Moving To Hexo" itemprop="url">Moving To Hexo</a>
   </h1>
   <p class="article-author">By
        
